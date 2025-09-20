@@ -1,0 +1,10 @@
+body {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  padding-inline: 3rem;
+  padding-bottom: 2rem;
+}
+
+header {
+  margin-block: 2rem;
+}
