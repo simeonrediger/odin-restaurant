@@ -1,9 +1,9 @@
 export default (function () {
     const element = document.getElementById('content');
 
-    function setContent(page) {
+    function render(renderPage) {
         empty();
-        element.append(page);
+        renderPage(element);
     }
 
     function empty() {
@@ -14,6 +14,6 @@ export default (function () {
     }
 
     return {
-        setContent,
+        render,
     };
 })();
