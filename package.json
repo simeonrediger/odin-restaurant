@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/simeonrediger/odin-restaurant/issues"
   },
-  "homepage": "https://github.com/simeonrediger/odin-restaurant#readme"
+  "homepage": "https://github.com/simeonrediger/odin-restaurant#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.4",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
 }
