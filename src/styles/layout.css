@@ -8,3 +8,34 @@ body {
 header {
   margin-block: 2rem;
 }
+
+.title {
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  margin-block: 2rem;
+  text-align: center;
+}
+
+nav {
+  margin-block: 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.nav-button {
+  background-color: var(--gray);
+  border-radius: 0.5rem;
+  color: var(--white);
+  cursor: pointer;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+}
+
+.nav-button:hover {
+  background-color: var(--light-gray);
+}
