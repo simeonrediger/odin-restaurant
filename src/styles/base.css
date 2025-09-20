@@ -15,3 +15,11 @@ ul {
   list-style: none;
 }
 /* End of Reset */
+
+html {
+  --black: #000;
+  --dark-gray: #181818;
+  --gray: #383838;
+  --light-gray: #555;
+  --white: #ccc;
+}
