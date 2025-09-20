@@ -31,7 +31,6 @@ nav ul {
   border-radius: 0.5rem;
   color: var(--white);
   cursor: pointer;
-  border: none;
   width: 10rem;
   height: 3rem;
 }

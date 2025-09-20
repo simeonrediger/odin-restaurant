@@ -16,6 +16,7 @@ ul {
 }
 
 button {
+  border: none;
   font-size: 1em;
 }
 /* End of Reset */
