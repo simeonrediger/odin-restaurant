@@ -20,11 +20,11 @@ restaurantDescription.textContent = `
     converge, with each meal served as both offering and reward.
 `;
 
-const homePage = document.createDocumentFragment();
-homePage.append(
+const fragment = document.createDocumentFragment();
+fragment.append(
     heroImageElement,
     restaurantHeadline,
     restaurantDescription,
 );
 
-export default homePage;
+export default fragment;
