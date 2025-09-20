@@ -1,7 +1,5 @@
 import heroImage from '../assets/images/cat-on-dining-table.jpg';
 
-const container = document.getElementById('content');
-
 const heroImageElement = document.createElement('img');
 heroImageElement.src = heroImage;
 heroImageElement.alt = 'Cat sits on dining table';
