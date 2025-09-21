@@ -1,0 +1,32 @@
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+
+#contact .form-title {
+  margin-bottom: 0.5rem;
+}
+
+#contact .email-input {
+  width: 18rem;
+}
+
+#contact .message-input {
+  min-height: 8rem;
+}
+
+#contact .submit-button {
+  width: max-content;
+}
+
+#contact .email-input,
+#contact .message-input,
+#contact .submit-button {
+  margin-block: 0.5rem;
+}
