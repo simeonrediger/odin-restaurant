@@ -4,5 +4,6 @@ import './styles/button.css';
 
 import container from './app/container.js';
 import renderHomePage from './pages/home/home.js';
+import renderMenuPage from './pages/menu/menu.js';
 
 container.render(renderHomePage);
