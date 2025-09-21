@@ -6,10 +6,12 @@ import navbar from './app/navbar.js';
 import container from './app/container.js';
 import renderHome from './pages/home/home.js';
 import renderMenu from './pages/menu/menu.js';
+import renderAbout from './pages/about/about.js';
 
 navbar.bindEvents(
     () => container.render(renderHome),
     () => container.render(renderMenu),
+    () => container.render(renderAbout),
 );
 
 container.render(renderHome);
