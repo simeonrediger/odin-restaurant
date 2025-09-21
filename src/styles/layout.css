@@ -25,3 +25,8 @@ nav ul {
   gap: 1rem;
   justify-content: center;
 }
+
+.nav-button {
+  width: 10rem;
+  height: 3rem;
+}
