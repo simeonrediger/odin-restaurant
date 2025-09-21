@@ -19,6 +19,7 @@ export default function render(container) {
     const submitButton = document.createElement('button');
     submitButton.textContent = 'Submit to your Lord';
     submitButton.classList.add('submit-button', 'button');
+    submitButton.type = 'button';
 
     form.append(
         formTitle,
