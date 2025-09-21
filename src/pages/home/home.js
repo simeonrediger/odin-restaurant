@@ -19,9 +19,13 @@ export default function render(container) {
         authority converge, with each meal served as both offering and reward.
     `;
 
-    container.append(
+    const content = document.createElement('div');
+    content.id = 'home';
+    content.append(
         heroImageElement,
         restaurantHeadline,
         restaurantDescription,
     );
+
+    container.append(content);
 }
