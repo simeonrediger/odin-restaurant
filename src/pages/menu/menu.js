@@ -1,5 +1,5 @@
 export default function render(container) {
-    const testElement = documen.createElement('p');
+    const testElement = document.createElement('p');
     testElement.textContent = `
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet
         possimus porro deleniti enim magni, sint ab ut aspernatur sunt quia ex
