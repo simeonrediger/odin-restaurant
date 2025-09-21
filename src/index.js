@@ -4,12 +4,12 @@ import './styles/button.css';
 
 import navbar from './app/navbar.js';
 import container from './app/container.js';
-import renderHomePage from './pages/home/home.js';
-import renderMenuPage from './pages/menu/menu.js';
+import renderHome from './pages/home/home.js';
+import renderMenu from './pages/menu/menu.js';
 
 navbar.bindEvents(
-    () => container.render(renderHomePage),
-    () => container.render(renderMenuPage),
+    () => container.render(renderHome),
+    () => container.render(renderMenu),
 );
 
-container.render(renderHomePage);
+container.render(renderHome);
