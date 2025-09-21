@@ -1,6 +1,7 @@
 import './styles/base.css';
 import './styles/layout.css';
 import './styles/button.css';
+import './styles/input.css';
 
 import navbar from './app/navbar.js';
 import container from './app/container.js';
