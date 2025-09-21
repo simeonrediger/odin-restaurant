@@ -1,4 +1,4 @@
-import heroImage from '../assets/images/cat-on-dining-table.jpg';
+import heroImage from '../../assets/images/cat-on-dining-table.jpg';
 
 export default function render(container) {
     const heroImageElement = document.createElement('img');
