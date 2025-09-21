@@ -1,9 +1,19 @@
+import { delay } from './utilities.js';
+
 export default (function () {
     const element = document.getElementById('content');
 
-    function render(renderPage) {
+    async function render(renderPage) {
+        hide();
+        await delay(200);
         empty();
         renderPage(element);
+        await delay(200);
+        show();
+    }
+
+    function hide() {
+        element.classList.add('hidden');
     }
 
     function empty() {
@@ -11,6 +21,10 @@ export default (function () {
         while (element.firstChild) {
             element.firstChild.remove();
         }
+    }
+
+    function show() {
+        element.classList.remove('hidden');
     }
 
     return {
