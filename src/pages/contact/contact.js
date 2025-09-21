@@ -1,15 +1,30 @@
 export default function render(container) {
-    const testElement = document.createElement('p');
-    testElement.textContent = `
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aperiam
-        atque nulla voluptates nostrum hic voluptate illum tempore veritatis
-        sequi quisquam veniam illo laudantium ea aut, quaerat est voluptas sunt.
-    `;
+    const form = document.createElement('form');
+
+    const formTitle = document.createElement('h2');
+    formTitle.textContent = 'Beseech your Lord...';
+
+    const emailInput = document.createElement('input');
+    emailInput.type = 'email';
+    emailInput.placeholder = 'Thine email';
+
+    const messageInput = document.createElement('textarea');
+    messageInput.placeholder = 'Thy bidding'
+
+    const submitButton = document.createElement('button');
+    submitButton.textContent = 'Submit to your Lord';
+
+    form.append(
+        formTitle,
+        emailInput,
+        messageInput,
+        submitButton,
+    );
 
     const content = document.createElement('div');
     content.id = 'contact';
     content.append(
-        testElement,
+        form,
     );
 
     container.append(content);
