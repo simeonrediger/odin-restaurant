@@ -1,5 +1,5 @@
 import './menu.css';
-import dishImage from '../../assets/images/bread-grapes-and-wine.jpg';
+import dishImage from '../../assets/images/bread-grapes-and-wine.webp';
 import currencySymbol from '../../assets/icons/skull.svg';
 
 export default function render(container) {
