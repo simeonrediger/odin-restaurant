@@ -1,3 +1,4 @@
+import './home.css';
 import heroImage from '../../assets/images/cat-on-dining-table.jpg';
 
 export default function render(container) {
@@ -6,9 +7,11 @@ export default function render(container) {
     heroImageElement.alt = 'Cat sits on dining table';
     heroImageElement.title = 'Photo by shahin khalaji on Unsplash';
     heroImageElement.width = 800;
+    heroImageElement.classList.add('hero-image');
 
     const restaurantHeadline = document.createElement('h2');
     restaurantHeadline.textContent = 'Come... Feast... Bask in my glory...';
+    restaurantHeadline.classList.add('headline');
 
     const restaurantDescription = document.createElement('p');
     restaurantDescription.textContent = `

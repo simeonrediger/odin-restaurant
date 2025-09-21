@@ -1,0 +1,20 @@
+#home {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#home .hero-image {
+  align-self: center;
+  border-radius: 2rem;
+}
+
+#home .headline {
+  margin-top: 1rem;
+}
+
+#home p {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  max-width: 45rem;
+}
