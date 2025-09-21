@@ -1,3 +1,5 @@
+import './about.css';
+
 export default function render(container) {
     const headline = document.createElement('h2');
     headline.textContent = 'Shadows, Silk, and Sovereignty';
